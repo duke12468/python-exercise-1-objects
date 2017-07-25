@@ -16,10 +16,7 @@ class User(object):
         self.weight = weight
         self.eye_color = eye_color
 
-user = User(name="Duke", age=17, weight=200.5, eye_color="Brown")
-print user.name, user.age, user.weight, user.eye_color
-
-def message(self, content):
+    def message(self, content):
         """
         :Description: Will print the message quoted by the user.
         :param content: Message to spit out.
@@ -27,11 +24,8 @@ def message(self, content):
         """
         print self.name + " says \"%s\"" % content
 
-def birthday(self, age, birthday):
- """
- :Description: Increment the users age by 1.
- """
- self.age = age
- self.birthday = birthday(age + 1)
-user = User(age=17 + 1, name="Duke", weight=200.5, eye_color="Brown")
-print'Happy Birthday!'
+    def birthday(self):
+        """
+        :Description: Increment the users age by 1.
+        """
+        print 'Happy Birthday!'
