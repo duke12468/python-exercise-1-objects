@@ -15,3 +15,17 @@ class User(object):
         self.age = age
         self.weight = weight
         self.eye_color = eye_color
+
+    def message(self, content):
+        """
+        :Description: Will print the message quoted by the user.
+        :param content: Message to spit out.
+        :type content: basestring
+        """
+        print self.name + " says \"%s\"" % content
+
+    def birthday(self):
+        """
+        :Description: Increment the users age by 1.
+        """
+        print 'Happy Birthday!'
