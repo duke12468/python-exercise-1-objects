@@ -24,12 +24,11 @@ class User(object):
         """
         print self.name + " says \"%s\"" % content
 
-    def birthday(self, birthday):
+    def birthday(self):
         """
         :Description: Increment the users age by 1.
         """
-
+        self.age=17
         print 'Happy Birthday!'
         birthday = self.age+1
-        print (birthday)
-        birthday(self)
+        print birthday(self)
