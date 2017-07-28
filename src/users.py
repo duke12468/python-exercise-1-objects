@@ -28,7 +28,6 @@ class User(object):
         """
         :Description: Increment the users age by 1.
         """
-        self.age=17
         print 'Happy Birthday!'
-        birthday = self.age+1
+        self.age = self.age + 1
         print birthday(self)
