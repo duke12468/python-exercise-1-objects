@@ -8,6 +8,7 @@ print 'User\'s current age: %s' % (user.age)
 user.birthday()
 print 'User\'s age after birthday: %s' % str(user.age)
 print 'Current name: %s' % user.name
+user.message(content="Applied for Name Change!")
 user.name_change()
 print 'New Name: %s' % user.name
 user.message(content="Hello World!")
