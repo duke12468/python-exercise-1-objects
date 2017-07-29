@@ -30,4 +30,3 @@ class User(object):
         """
         print 'Happy Birthday!'
         birthday = (age + 1)
-        print birthday(self,age)
