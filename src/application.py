@@ -7,6 +7,6 @@ print user.name, user.age, user.weight, user.eye_color
 print 'User\'s current age: %s' % (user.age)
 user.birthday()
 print 'Current name: %s' % user.name
-user.name_change()
-print 'New Name: %s' % user.name
+user.name_change(name="Danny")
+print 'New name: %s' % user.name
 user.message(content="Hello World!")
