@@ -31,8 +31,9 @@ class User(object):
         print 'Happy Birthday!'
         self.age = (self.age + 1)
 
-    def name_change(name):
+    def name_change(self):
         """
         :Description: Changes the users name.
         """
-        name.name = "Danny"
+        self.name = self.name
+        self.name = ("danny")
