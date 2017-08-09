@@ -36,4 +36,3 @@ class User(object):
         :Description: Changes the users name.
         """
         self.name = name
-        name = ("Danny")
